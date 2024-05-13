@@ -83,6 +83,7 @@ alias gitdotfiles="git --git-dir='$HOME/.dotfiles/' --work-tree='$HOME'"
 alias dfadd='gitdotfiles add'
 alias dfcmt='gitdotfiles commit'
 alias dfsts='gitdotfiles status'
+alias dfpsh='gitdotfiles push'
 
 # Common Pacman Operations
 alias pacs='pacman -S'     # install a package from the repos
