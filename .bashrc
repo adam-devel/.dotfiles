@@ -110,8 +110,8 @@ aurs(){
 
 # Editor
 export EDITOR='nvim'
-alias dev='NVIM_APPNAME=nvim-dev neovide'
-alias mnd='NVIM_APPNAME=nvim-mnd neovide'
+alias dev='NVIM_APPNAME=nvim-dev neovide --no-fork'
+alias mnd='NVIM_APPNAME=nvim-mnd neovide --no-fork'
 
 # Man
 # use bat as a man pager
